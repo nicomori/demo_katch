@@ -1,0 +1,187 @@
+#https://obamacareplans.com/
+#MobileSection
+page:
+	lander:
+		storyCard--heroLander:
+			shopStoryCardTitle:
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='shopStoryCardTitle']"
+				attributes:
+					text: "You May Still Qualify for Coverage After Open Enrollment:"
+
+			storyCardSubTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='storyCardSubTitle']"
+				attributes:
+					text: "Compare Affordable Health Options in your state!"
+
+			shopStoryHeroZipInput: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='shopStoryHeroZipInput']"
+				attributes:
+					placeholder: "Enter Zip Code"
+
+			shopStoryHeroZipButton: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='shopStoryHeroZipButton']"
+				attributes:
+					text: "See Plans & Prices"
+		
+		storyCard--carrierLogos:
+			availableHealthPlans: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='availableHealthPlans']"
+				attributes:
+					text: "A few of the leading carriers and brokers we work with in your state include:"
+			
+		storyCard--sem:
+			smartChoiceSubTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='smartChoiceSubTitle'])[1]"
+				attributes:
+					text: "Finding the right plan can be difficult. Each plan has its pros and cons"
+
+			smartChoiceSubTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='smartChoiceSubTitle'])[2]"
+				attributes:
+					text: "The good news is that ObamacarePlans.com summarizes all the key info for"
+		
+		storyCard__qualify:
+			smartChoiceSubTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='smartChoiceSubTitle'])[3]"
+				attributes:
+					text: "In order to get an Obamacare Plan, you must sign up during"
+		
+		storyCard--sem:
+			smartChoiceSubTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='smartChoiceSubTitle'])[4]"
+				attributes:
+					text: "The Affordable Care Act (ACA), also known as"
+
+			smartChoiceImage: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='smartChoiceImage']"
+				attributes:
+					imgSrc: "https://obamacareplans.com/obamacareplans/img/pages/splash/act.png"
+
+		storyCard__whyChoose:
+			whyChooseLosAngelesImage: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='whyChooseLosAngelesImage']"
+				attributes:
+					imgSrc: "https://obamacareplans.com/obamacareplans/img/pages/splash/step2.png"
+
+			whyChooseYahooImage: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='whyChooseYahooImage']"
+				attributes:
+					imgSrc: "https://obamacareplans.com/obamacareplans/img/pages/splash/step3.png"
+
+		storyCard--footerZip:
+			startSearchingTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='startSearchingTitle']"
+				attributes:
+					text: "Find an Affordable Plan Now!"
+
+			startSearchingZipCodeInput: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='startSearchingZipCodeInput']"
+				attributes:
+					placeholder: "Enter Zip Code"
+
+			startSearchingSubmitButton: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='startSearchingSubmitButton']"
+				attributes:
+					text: "See Plans & Prices"
+
+			storyCardSubTitle: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='storyCardSubTitle']"
+				attributes:
+					text: "Compare Affordable Health Options in your state!"
+
+#MobileSection
+page:
+	lander:
+		storyCard--heroLander:
+			shopStoryHeroZipInput: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='shopStoryHeroZipInput'])[1]"
+				attributes:
+					placeholder: "Enter Zip Code"
+
+			startSearchingSubmitButton: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='startSearchingSubmitButton'])[1]"
+				attributes:
+					text: "See Plans & Prices"
+		
+		storyCard--carriers:
+			ktCovered: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='ktCovered']"
+				attributes:
+					text: "We Have You Covered"
+
+		storyCard__qualify:
+			ktQualified: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='ktQualified']"
+				attributes:
+					text: "Do I Qualify for a Plan?"
+
+		kt-description:
+			ktACA: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='ktACA']"
+				attributes:
+					text: "About the ACA"
+		
+		storyCard__whyChoose:
+			whyChoose-sem: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "//*[@data-testid='whyChoose-sem']"
+				attributes:
+					text: "Why Choose ObamacarePlans.com"
+
+		storyCard--heroLander:
+			shopStoryHeroZipInput: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='shopStoryHeroZipInput'])[2]"
+				attributes:
+					placeholder: "Enter Zip Code"
+
+			startSearchingSubmitButton: 
+				locator:
+					locatorType: "xpath"
+					locatorPath: "(//*[@data-testid='startSearchingSubmitButton'])[2]"
+				attributes:
+					text: "See Plans & Prices"
